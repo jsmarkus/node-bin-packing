@@ -17,13 +17,15 @@ NPM install
 NodeJS usage
 ============
 
-    var binpacking = require('binpacking');
-    var Packer = binpacking.Packer;
-    var GrowingPacker = binpacking.GrowingPacker;
-    var blocks = [{w:100, h:100}, {w:100, h:100}, {w:100, h:200}];
-    var packer = new GrowingPacker;
-    packer.fit(blocks);
-    console.log(blocks);
+```javascript
+var binpacking = require('binpacking');
+var Packer = binpacking.Packer;
+var GrowingPacker = binpacking.GrowingPacker;
+var blocks = [{w:100, h:100}, {w:100, h:100}, {w:100, h:200}];
+var packer = new GrowingPacker;
+packer.fit(blocks);
+console.log(blocks);
+```
 
 
 
