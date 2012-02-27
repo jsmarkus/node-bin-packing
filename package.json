@@ -1,0 +1,27 @@
+{
+  "name": "binpacking",
+  "version": "0.0.1",
+  "author": "Jake Gordon",
+  "description": "binary tree based bin packing algorithm",
+  "contributors": [ 
+    {
+      "name": "Markus",
+      "email": "nixmrak@gmail.com"
+    } 
+  ],
+  "main": "./js/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://jsmarkus@github.com/jsmarkus/node-bin-packing.git"
+  },
+  "keywords": [
+    "bin packing",
+    "2d",
+    "geometry",
+    "css-sprites"
+  ],
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.4"
+  }
+}
