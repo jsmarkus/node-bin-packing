@@ -14,6 +14,18 @@ NPM install
 
     npm install binpacking
 
+NodeJS usage
+============
+
+    var binpacking = require('binpacking');
+    var Packer = binpacking.Packer;
+    var GrowingPacker = binpacking.GrowingPacker;
+    var blocks = [{w:100, h:100}, {w:100, h:100}, {w:100, h:200}];
+    var packer = new GrowingPacker;
+    packer.fit(blocks);
+    console.log(blocks);
+
+
 
 NodeJS demo
 ============
