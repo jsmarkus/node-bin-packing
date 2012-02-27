@@ -12,7 +12,7 @@ bin packing algorithm that is suitable for generating
 NPM install
 ===========
 
-    npm install binpacker
+    npm install binpacking
 
 
 NodeJS demo
