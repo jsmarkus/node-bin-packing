@@ -9,10 +9,14 @@ bin packing algorithm that is suitable for generating
  * You can find a [description here](http://codeincomplete.com/posts/2011/5/7/bin_packing/)
 
 
+NPM install
+===========
+
+    npm install binpacker
+
+
 NodeJS demo
 ============
-
- > Note: the node demo is quick and dirty. Npm support, test suite coming soon...
 
 Clone this repository:
 
