@@ -56,8 +56,9 @@ Example:
 
 
 ******************************************************************************/
+-function (exports) {
 
-GrowingPacker = function() { };
+var GrowingPacker = exports.GrowingPacker = function() { };
 
 GrowingPacker.prototype = {
 
@@ -144,4 +145,4 @@ GrowingPacker.prototype = {
 
 }
 
-
+}(typeof window !== 'undefined' ? window : module.exports);

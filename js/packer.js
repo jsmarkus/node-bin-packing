@@ -46,7 +46,10 @@ Example:
 
 ******************************************************************************/
 
-Packer = function(w, h) {
+-function (exports) {
+
+
+var Packer = exports.Packer = function(w, h) {
   this.init(w, h);
 };
 
@@ -83,3 +86,4 @@ Packer.prototype = {
 
 }
 
+}(typeof window !== 'undefined' ? window : module.exports);
