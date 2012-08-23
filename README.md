@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/jsmarkus/node-bin-packing.png)](http://travis-ci.org/jsmarkus/node-bin-packing)
 Binary Tree Algorithm for 2D Bin Packing
 ========================================
 
